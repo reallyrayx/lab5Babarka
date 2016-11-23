@@ -19,7 +19,10 @@ namespace WindowsFormsApplication1
 
         private void button11_Click(object sender, EventArgs e)
         {
+            string name = (textBox11.Text);
 
+            string name3 = (name.ToLower());
+            textBox21.Text = name3.ToString();
         }
     }
 }
