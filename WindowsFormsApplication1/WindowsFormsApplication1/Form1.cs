@@ -24,5 +24,12 @@ namespace WindowsFormsApplication1
             string name3 = (name.ToLower());
             textBox21.Text = name3.ToString();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            string name = (textBox12.Text);
+       
+            textBox22.Text = name.ToUpper();
+        }
     }
 }
